@@ -29,5 +29,21 @@ A lot of programs will only work if we configure a new 32 bit "Wine prefix." To 
 
 
 ## Installing LT Spice
-1. Fill the form, request and download the Lite Spice (aka Orcad) at [THIS LINK](https://www.orcad.com/orcad-academic-program).
-2. 
+1. Download the Lite Spice (aka Orcad) 16.5 at [THIS LINK](https://brpucrs-my.sharepoint.com/:u:/g/personal/arthur_santos89_edu_pucrs_br/EWHYK5HXv1xOnQY73d6W9KoBVX_9CrxJgiyekcU9RlFxmg?e=NcSgFb). 
+2. Download the .iso file and navigate to the directory that you downloaded it (e.g. ~/Downloads)
+3. Proceed with the following commands:
+```
+$ cd Downloads
+$ mkdir mnt
+$ sudo mount -o loop OrCAD.iso /mnt
+$ cd mnt
+$ wine PSPLIB_install.exe
+```
+4. The previous commands will start the installing sequence for LT Spice. Just folow the instructions.
+![img4](./img/4.png)
+
+
+
+
+
+
